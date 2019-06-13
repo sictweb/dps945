@@ -5,7 +5,7 @@ layout: default
 
 ## Course policies
 
-The information below is intended for students in the BTI425 course. It is your responsibility to read, understand, and follow them.
+The information below is intended for students in the DPS945 course. It is your responsibility to read, understand, and follow them.
 
 <br>
 

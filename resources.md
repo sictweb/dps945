@@ -7,16 +7,19 @@ layout: default
 
 This page has information about and links to learning resources that you will use in this course.
 
+<mark>This document is being edited.<br>This notice will be removed when the edits are complete.</mark>
+
 <br>
 
 ### Previous courses
 
-This is the third course in the web programming sequence. 
+For Seneca students, this is a pro option course in the web programming field of study. 
 
 Therefore, continue to use the content from the courses that you have successfully completed:
 
-* BTI225 - Web Programming Principles
-* BTI325 - Web Programming Tools and Frameworks
+* BTI225 (or WEB222) - Web Programming Principles
+* BTI325 (or WEB322) - Web Programming Tools and Frameworks
+* BTI425 (or WEB422) - Web Programming for Apps and Services 
 
 <br>
 
@@ -112,9 +115,8 @@ Oh, and you should must know (and love!) the series of RFCs that describe HTTP, 
 * [Angular](https://angular.io/docs) (which is NOT AngularJS, a legacy technology)  
 
 Alternatives:
-* [Knockout](http://knockoutjs.com/documentation/introduction.html)  
 * [React](https://facebook.github.io/react/docs/hello-world.html)  
-* [Ember](https://www.emberjs.com/api)
+* [Vue](https://vuejs.org)
 * and many others...  
 
 **State management**  

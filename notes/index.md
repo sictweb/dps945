@@ -5,7 +5,7 @@ layout: default
 
 ## Notes
 
-The table below has links to the daily class notes for the Winter 2019 term.  
+The table below has links to the daily class notes for the Summer 2019 term.  
 
 New notes are at the top.
 

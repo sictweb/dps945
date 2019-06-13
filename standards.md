@@ -5,7 +5,7 @@ layout: default
 
 ## Course standards
 
-The information below, provided in a written style from your professor, is intended for students in the BTI425 course. It is your responsibility to read, understand, and follow them. 
+The information below, provided in a written style from your professor, is intended for students in the DPS945 and WEB525 courses. It is your responsibility to read, understand, and follow them. 
 
 <br>
 
