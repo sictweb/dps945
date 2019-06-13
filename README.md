@@ -4,6 +4,8 @@ This is the home page for the DPS945 course in the BSD program, and WEB525 in th
 
 > Students build upon foundations acquired in previous web programming courses to learn concepts and techniques for building modern applications. (more to come)
 
+<mark>This document is being edited.<br>This notice will be removed when the edits are complete.</mark>
+
 <br>
 
 Coming into this course, we assume that you have knowledge of and experience in:

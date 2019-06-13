@@ -1,17 +1,17 @@
 ---
-title: BTI425 Week 1
+title: DPS945 Week 1
 layout: default
 ---
 
-## BTI425 Week 1 Notes
+## DPS945 Week 1 Notes
 
-The theme for the first week or more is to transition your success in the previous course to the new topics in this course.
+The theme for the first week or more is to transition your success in previous web programming courses to the new topics in this course.
 
 Remember to frequently use the [learning resources](/resources).
 
 <br>
 
-### Previous course
+### Previous courses
 
 In the previous course (BTI325), you began to learn the principles and practices for creating simple web apps and services:
 * Most of the work was done on the server (generation, computation, etc.)

@@ -1,17 +1,20 @@
 ---
-title: Welcome to the BTI425 course
+title: Welcome to the DPS945 course
 layout: default
 ---
 
-## Welcome to the BTI425 course
+## Welcome to the DPS945 course
 
-Welcome to the BTI425 course. This document has information that helps you get started in the course.
+Welcome to the DPS945 course. This document has information that helps you get started in the course.
 
 <br>
 
 ### Course introduction
 
-Welcome to BTI425!
+Welcome to DPS945!
+
+<mark>This document is being edited.<br>This notice will be removed when the edits are complete.</mark>
+
 
 In this course, you will learn to create web client (front end, in the browser) apps that work with a web service (back end, in the server). The apps will enable entry-level functionality, which can be hosted on-premise or in the cloud.
 
