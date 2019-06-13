@@ -15,7 +15,9 @@ The information below is the *course outline addendum* for the course.
 
 ### Faculty
 
-For the Summer 2019 term, Professor **Peter McIntyre** teaches section **A** of the course. 
+There are two faculty members teaching the Summer 2019 course. 
+
+In Toronto (and then in Aarhus), Professor **Peter McIntyre**: 
 
 Info | Details
 --- | ---
@@ -27,7 +29,7 @@ Timetable | [Available at this link](https://petermcintyre.com/welcome/timetable
 
 <br>
 
-For the Summer 2019 term, Senior Lecturer **Torill Hagesæther Skytte** teaches section **A** of the course. 
+In Aarhus, Senior Lecturer **Torill Hagesæther Skytte**: 
 
 Info | Details
 --- | ---
