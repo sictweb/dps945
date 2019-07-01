@@ -21,18 +21,18 @@ In Toronto (and then in Aarhus), Professor **Peter McIntyre**:
 
 Info | Details
 --- | ---
+Photo | ![Photo](/media/faculty-seneca-mcintyre-v1.png)
 Email | peter.mcintyre -at- senecacollege.ca
 Office | DB2081 in the School of ICT office area<br>(Dahdaleh building, south end, second floor)
 Web | [petermcintyre.ca](http://petermcintyre.ca)
 Phone, address | [Available at this link](https://petermcintyre.com/welcome/contact/)
 Timetable | [Available at this link](https://petermcintyre.com/welcome/timetable/)
 
-<br>
-
 In Aarhus, Senior Lecturer **Torill Hagesæther Skytte**: 
 
 Info | Details
 --- | ---
+Photo | ![Photo](/media/faculty-baa-skytte-v1.png)
 Email | tosk -at- eaaa.dk
 Office | Sonderhoj 30, Viby
 Web | [Web site](https://www.baaa.dk/contact/find-employee/torill-hagesaether-skytte/)
