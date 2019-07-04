@@ -37,9 +37,9 @@ Finally, we would like to explain the grading process, because too many students
 
 ### Tests and similar graded work
 
-Tests must be written when scheduled. You can't simply write a test when it is convenient with you.
+Tests must be attempted when scheduled. You can't simply do a test when it is convenient with you.
 
-If you are unable to write a test, what happens? 
+If you are unable to attempt a test, what happens? 
 
 There is a [limited policy](graded-work#tests) detailed on the Graded Work info page. 
 

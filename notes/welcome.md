@@ -13,31 +13,11 @@ Welcome to the DPS945 course. This document has information that helps you get s
 
 Welcome to DPS945!
 
-<mark>This document is being edited.<br>This notice will be removed when the edits are complete.</mark>
+In this course, you will build upon your knowledge from previous web programming courses, and learn more topics and techniques for building web services. Then, in a two-week every-day experience with students from Denmark's Business Academy Aarhus (BAA), you will build a modern web app that uses your web service. In addition, the web app - which is designed to be deployed on mobile devices - will implement a number of modern features that are currently described with the term *progressive web app*. 
 
+Coming into the course, you must have a good level of experience  programming with web technologies, which mostly means the combination of HTML5 and its ideas (responsiveness etc.), JavaScript and its ecosystem at the server and in the browser, CSS, and HTML.
 
-In this course, you will learn to create web client (front end, in the browser) apps that work with a web service (back end, in the server). The apps will enable entry-level functionality, which can be hosted on-premise or in the cloud.
-
-Throughout the learning process, you will learn foundational concepts, skills, and technologies that will enable you to create high-quality intermediate- and advanced-level web applications in the future. These foundations will include:
-* More JavaScript
-* Web API (web services) on a modern server stack (Node.js, Express.js, and MongoDB)
-* The concept (and application) of front end web client development
-* A survey of widely-used current/existing front end development environments
-* The Angular application platform
-
-Coming into the course, you must have some experience and success programming object-oriented software in C++. This means that you must have passed BTP200.
-
-In addition, you must have some experience and success with web client programming, and you must "get" the server-based web application concept. This means that you must have passed BTI225 and BTI325.
-
-We're also counting on database experience and success gained in your database courses, and in BTI325.
-
-In summary, we are counting on you having some experience and success in the following foundational concepts, skills, and technologies BEFORE starting this course:
-* Object-oriented software development using C++
-* HTML5 programming (JavaScript, the DOM, HTML, and CSS)
-* Database concepts (schema, data definition, data manipulation)
-* Unix or Linux operating system experience, so you can install, configure, and use new software
-
-In addition to the above list, you need the ability to learn quickly and effectively. You will be expected to learn (through watching, listening, reading, doing, and helping others) a significant amount of material. This learning will be done incrementally, so you must keep involved during the course to be successful.
+We are depending upon your ability to learn quickly and effectively. You will be expected to learn (through watching, listening, reading, doing, and helping others) a significant amount of material. This learning will be done incrementally, so you must keep involved during the course to be successful.
 
 <br>
 
@@ -47,25 +27,25 @@ Get familiar with the course web site. All areas.
 
 **Using your own personal computer**
 
-We expect the student to do their work on a computer that runs macOS (formerly known as Mac OS X), Linux, or another Unix-like operating system. If a student has a Windows 10 computer, then plan to install an environment that enables the installation of Linux. Alternatively, configure a dual-boot scenario.
+We expect the student to do their work on a computer that runs macOS (formerly known as Mac OS X), Linux, or another Unix-like operating system. If a student has a Windows 10 computer, then plan to install an environment that enables the installation of Linux (e.g. WSL, Windows Subsystem for Linux). Alternatively, configure a dual-boot scenario.
 
 > Important - We *expect* you to do your work on macOS, Linux, or another Unix-like operating system. 
 
 The student will use a number of applications and development tools, including:
-* A modern web app execution environment (Node.js, Express.js, MongoDB)
+* A modern web app and service execution environment (Node.js, Express.js, MongoDB)
 * Visual Studio Code
-* The Angular platform
+* React 
 * Various code generators 
 
 During the course, the professor(s) will guide the student in the installation, configuration, and use of the software. 
 
 > Please be aware of the following:
 > 
-> You are NOT required to use your own personal computer for BTI425 course work.
+> You are NOT required to use your own personal computer for this course's work.
 > 
 > The College has hundreds of correctly-configured systems, ready to be used. You can save your work in the cloud, or on a (fast) USB flash drive.
 > 
-> If you have problems or difficulties using your own personal computer for BTI425 course work, your professor will not be able to provide technical support. Maybe the student help desk (in the library) can help. In a problem scenario, you are still expected to complete your work on time. A problematic personal computer *cannot* be used as an excuse for delays in completing the course work.
+> If you have problems or difficulties using your own personal computer for course work, your professor will not be able to provide technical support. Maybe the student help desk (in the library) can help. In a problem scenario, you are still expected to complete your work on time. A problematic personal computer *cannot* be used as an excuse for delays in completing the course work.
 
 <br>
 
@@ -73,7 +53,7 @@ During the course, the professor(s) will guide the student in the installation, 
 
 Every class/session will have notes posted on this web site.
 
-All notes will be linked from the [notes index page](https://bti425.ca/notes/). 
+All notes will be linked from the [notes index page](https://dps945.ca/notes/). 
 
 Study that page's URI to learn the naming convention for a specific weekly notes page.
 
@@ -87,29 +67,22 @@ Class/sessions are important. This is not a distance education (online) course. 
 
 ### What do we expect from you?
 
-Before the Monday class, we expect you to prepare. This means:
+Before the Friday class, we expect you to prepare. This means:
 * Read and study the class notes page
 * Read and study the linked documents
 * Make your own notes, including questions that you have
 
 In other words, do not come into the classroom expecting somehow to soak up knowledge like a sponge. You need to prepare before class, so that you understand the topics and their context.
 
-In the Tuesday or Thursday class (in the computer-lab), we expect you to be an engaged and actively-learning participant. This means:
+In class, we expect you to be an engaged and actively-learning participant. This means:
 * Listening effectively
 * Asking and answering questions
 * Writing notes
 * Doing the in-class exercises and activities
 
-Before the Tuesday/Thursday class/session of the week, we also expect you to prepare for the class. This means:
-* Being prepared to split your time between new topic learning, and working hands-on with the topic or the current assignment
-* Asking and answering questions
-* Writing notes
-* Read and study the current assignment
-* Practice its contents, and/or get started on its contents
+Regarding the workload, it will not be possible to confine this course's learning experience to the scheduled six periods per week in July. We expect you to spend some of the Friday in-class time working on the assignment(s), but you must also spend time out-of-class to complete the work.
 
-Regarding the workload, it will simply not be possible to confine this course's learning experience to the scheduled four periods per week. We expect you to spend some of the Tuesday/Thursday in-class time working on the assignments, but you must spend time out-of-class to complete the work.
-
-That being said, you will encounter problems and delays. Please follow a general rule: If you cannot solve the problem within 20 to 30 minutes, then stop and set it aside. Seek help from your professor, during class time, or during the designated help time or office hours. Alternatively, seek help from a classmate *who knows the solution* to the problem. 
+That being said, you will encounter problems and delays. Please follow a general rule: If you cannot solve the problem within 15 minutes or so, then stop and set it aside. Seek help from your professor, during class time, or during the designated help time or office hours. Alternatively, seek help from a classmate *who knows the solution* to the problem. 
 
 Do not waste time. Do not attempt to wrestle the problem to the ground. Others will not think any less of you when you ask for help. You're here to learn, so take advantage of the course's resources and delivery to help you learn.
 
