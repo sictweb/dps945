@@ -39,7 +39,7 @@ This week's topics include:
 
 [Web services (re)introduction](intro-web-services)
 
-[Building a web service](web-build-intro)
+[Building a web service](web-api-build-intro)
 
 [This document](postman-intro) introduces you to Postman, and has how-to getting started info.
 
