@@ -21,3 +21,12 @@ Run this with the command:
 `node server.js` 
 
 <br>
+
+### Web API, one entity, data in local database
+
+Data is in a local MongoDB database (after you configure it)  
+Single entity, get all (`/api/persons`), get one (`/api/persons/:personId`)  
+Also supports HTTP POST, PUT, and DELETE  
+Use Postman to interact with the web service
+
+<br>
