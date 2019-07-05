@@ -15,7 +15,6 @@ Welcome to DPS945!
 
 <mark>This document is being edited.<br>This notice will be removed when the edits are complete.</mark>
 
-
 In this course, you will learn to create web client (front end, in the browser) apps that work with a web service (back end, in the server). The apps will enable entry-level functionality, which can be hosted on-premise or in the cloud.
 
 Throughout the learning process, you will learn foundational concepts, skills, and technologies that will enable you to create high-quality intermediate- and advanced-level web applications in the future. These foundations will include:
