@@ -10,9 +10,9 @@ npm i
 
 <br>
 
-### More to come
+### Web service tempate v1
 
-More to come.
+Includes essential structure only, all five typical requests.  
+No data, just string handling.  
 
 <br>
-
