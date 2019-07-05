@@ -7,8 +7,6 @@ layout: default
 
 This page has information about and links to learning resources that you will use in this course.
 
-<mark>This document is being edited.<br>This notice will be removed when the edits are complete.</mark>
-
 <br>
 
 ### Previous courses
