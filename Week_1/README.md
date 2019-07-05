@@ -10,8 +10,14 @@ npm i
 
 <br>
 
-### More to come
+### Web API, one entity, in-memory data
 
-More to come. 
+Data is NOT persisted; it is in a simple in-memory array  
+Single entity, get all (`/api/items`), get one (`/api/items/:itemId`)  
+Also supports HTTP POST, PUT, and DELETE  
+Use Postman to interact with the web service
+
+Run this with the command:  
+`node server.js` 
 
 <br>
