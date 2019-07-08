@@ -18,7 +18,7 @@ Week number<br>and date | Topic theme and coverage | Graded work, mark value
 **Week 5**<br>&bull; Mon Jul 29<br>&bull; all week | Break week, no classes<br>(Seneca students travel to Denmark) | 
 **Week 4**<br>&bull; Fri Jul 26<br> | Web service/API topics<br>(more to come) | TBA<br>(web service project)
 **Week 3**<br>&bull; Fri Jul 19<br> | Web service/API topics<br>(more to come) | TBA<br>(test, progress report)
-**Week 2**<br>&bull; Fri Jul 12<br> | Web service/API topics<br>(more to come) |
+**[Week 2](week02)**<br>&bull; Fri Jul 12<br> | Web service/API topics<br>Hypermedia representation; security; (more to come) |
 **[Week 1](week01)**<br>&bull; Fri Jul 5<br> | Web service/API topics<br>The basics and foundations |
 **[Welcome](welcome)** | Welcome to the DPS945 course |
 

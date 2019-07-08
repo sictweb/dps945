@@ -20,12 +20,11 @@ Instead, the user of the web API should be able to "discover" functionality, fou
 
 This concept was identified in the <em>hypermedia constraint</em> section of Roy Fielding's PhD (doctoral) thesis, "Architectural Styles and the Design of Network-based Software Architectures".
 
-<blockquote>Who is <a href="https://en.wikipedia.org/wiki/Roy_Fielding" target="_blank" rel="noopener">Roy Fielding</a>?
-
-A giant in our industry. We owe him so much.
-
-Oh, and when you look at the list of authors of the RFC 7230 series, he's the principal author. Then, look back at the now-obsolete predecessors to this series: <a href="https://tools.ietf.org/html/rfc2616" target="_blank" rel="noopener">2616</a>, <a href="https://tools.ietf.org/html/rfc2068" target="_blank" rel="noopener">2068</a>, and <a href="https://tools.ietf.org/html/rfc1945" target="_blank" rel="noopener">1945</a>. He's on the author list on those, too.
-</blockquote>
+> Who is <a href="https://en.wikipedia.org/wiki/Roy_Fielding" target="_blank" rel="noopener">Roy Fielding</a>?
+> 
+> He is a giant in our industry. We owe him so much.
+> 
+> Oh, and when you look at the list of authors of the RFC 7230 series, he's the principal author. Then, look back at the now-obsolete predecessors to this series: <a href="https://tools.ietf.org/html/rfc2616" target="_blank" rel="noopener">2616</a>, <a href="https://tools.ietf.org/html/rfc2068" target="_blank" rel="noopener">2068</a>, and <a href="https://tools.ietf.org/html/rfc1945" target="_blank" rel="noopener">1945</a>. He's on the author list on those, too.
 
 <br>
 
@@ -67,11 +66,11 @@ This is a readable and understandable thesis, but some readers will need more ef
 
 Near the beginning, Roy identifies the now well-known REST constraints:
 
-<blockquote>"...multiple architectural constraints are needed to guide the behavior of [software] components. REST is defined by four interface constraints: identification of resources; manipulation of resources through representations; self-descriptive messages; and, <span style="color: #ff0000;">hypermedia as the engine of application state</span>. These constraints will be discussed in <a href="http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_2" target="_blank" rel="noopener">Section 5.2</a>."</blockquote>
+> "...multiple architectural constraints are needed to guide the behavior of [software] components. REST is defined by four interface constraints: identification of resources; manipulation of resources through representations; self-descriptive messages; and, <span style="color: #ff0000;">hypermedia as the engine of application state</span>. These constraints will be discussed in <a href="http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_2" target="_blank" rel="noopener">Section 5.2</a>."
 
 Yes, the constraints are discussed in Section 5.2. However, the hypermedia-driven concept is better explained in <a href="http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_3_3" target="_blank" rel="noopener">Section 5.3.3</a>. The last paragraph of the section brings out this idea clearly:
 
-<blockquote>"The model application is therefore an engine that moves from one state to the next by examining and choosing from among the alternative state transitions in the current set of representations. Not surprisingly, this exactly matches the user interface of a hypermedia browser. However, the style does not assume that all applications are browsers."</blockquote>
+> "The model application is therefore an engine that moves from one state to the next by examining and choosing from among the alternative state transitions in the current set of representations. Not surprisingly, this exactly matches the user interface of a hypermedia browser. However, the style does not assume that all applications are browsers."
 
 2. <a href="http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven" target="_blank" rel="noopener">REST APIs must be hypertext-driven</a>, in which Roy reminds us about some design principles.
 
@@ -105,7 +104,7 @@ So... Does it matter in this scenario? You could argue "no" in a convincing mann
 Please keep this in mind in the future. You may find yourself in a situation where you face this kind of choice. With a bit more experience in this and related fields, you will be able to bring value to the decision-making progress.
 
 <br>
- 
+
 ### Data and metadata available to the web API designer and user
 
 The following list is a brief reminder of the list of <em>data items</em> and <em>metadata</em> that are available to web service designers and users:
@@ -300,7 +299,7 @@ As their name suggest, these properties provide useful information about the rep
 
 "version" is programmer-provided, and can be an easy way to tell the requestor about the version number of the representation.
 
-<br> 
+<br>
 
 <strong>The "data" property</strong>
 

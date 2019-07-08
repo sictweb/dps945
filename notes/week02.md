@@ -13,6 +13,12 @@ Intro.
 
 ### Topics
 
-TBA, with links to notes.
+This week's topics include: 
+
+An introduction to [hypermedia representations](hypermedia-representation) 
+
+Security in a web service
+
+(more to come)
 
 <br>
