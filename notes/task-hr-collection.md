@@ -1,0 +1,131 @@
+---
+title: Hypermedia representation for a collection
+layout: default
+---
+
+## Hypermedia representation for a collection
+
+Here's an example of a a design for a hypermedia representation for a collection.
+
+```js
+{
+  "timestamp":"2019-07-09T11:16:50.650Z",
+  "version":"1.0.0",
+  "links":[
+    {
+      "href":"/api/users",
+      "rel":"self"
+    }
+  ],
+  "count":5,
+  "data":[
+    {
+      "id":1,
+      "firstName":"Reagen",
+      "lastName":"Lincke",
+      "gender":"Male",
+      "birthDate":"2018-01-17T10:09:55Z",
+      "email":"rlincke0@virginia.edu",
+      "web":"https://virginia.edu",
+      "creditScore":629,
+      "rating":15.03,
+      "links":[
+        {
+          "href":"/api/users/1",
+          "rel":"self"
+        },
+        {
+          "href":"/api/users",
+          "rel":"collection"
+        }
+      ]
+    },
+    {
+      "id":2,
+      "firstName":"Samuele",
+      "lastName":"Branchflower",
+      "gender":"Male",
+      "birthDate":"2018-01-25T11:38:22Z",
+      "email":"sbranchflower1@prweb.com",
+      "web":"http://digg.com",
+      "creditScore":658,
+      "rating":15.68,
+      "links":[
+        {
+          "href":"/api/users/2",
+          "rel":"self"
+        },
+        {
+          "href":"/api/users",
+          "rel":"collection"
+        }
+      ]
+    },
+    {
+      "id":3,
+      "firstName":"Guilbert",
+      "lastName":"Edser",
+      "gender":"Male",
+      "birthDate":"2018-05-17T06:15:37Z",
+      "email":"gedser2@bbb.org",
+      "web":"http://msn.com",
+      "creditScore":565,
+      "rating":8.26,
+      "links":[
+        {
+          "href":"/api/users/3",
+          "rel":"self"
+        },
+        {
+          "href":"/api/users",
+          "rel":"collection"
+        }
+      ]
+    },
+    {
+      "id":4,
+      "firstName":"Waldon",
+      "lastName":"Morgen",
+      "gender":"Male",
+      "birthDate":"2018-03-02T09:53:29Z",
+      "email":"wmorgen3@dailymail.co.uk",
+      "web":"http://usnews.com",
+      "creditScore":742,
+      "rating":15.59,
+      "links":[
+        {
+          "href":"/api/users/4",
+          "rel":"self"
+        },
+        {
+          "href":"/api/users",
+          "rel":"collection"
+        }
+      ]
+    },
+    {
+      "id":5,
+      "firstName":"Megen",
+      "lastName":"Gabbett",
+      "gender":"Female",
+      "birthDate":"2018-11-21T09:29:49Z",
+      "email":"mgabbett4@toplist.cz",
+      "web":"https://mysql.com",
+      "creditScore":319,
+      "rating":2.67,
+      "links":[
+        {
+          "href":"/api/users/5",
+          "rel":"self"
+        },
+        {
+          "href":"/api/users",
+          "rel":"collection"
+        }
+      ]
+    }
+  ]
+}
+```
+
+<br>

@@ -229,7 +229,7 @@ let link = {
 
 What to do with the link object? We will add it to the data that will be returned to the requestor. More about this soon. 
 
-First, let's review your current web service experience. When returning a single item from your Node + Express app, the response looks something like this:
+First, let's review your current web service experience. When returning a single item from your Node + Express app, the JSON response looks something like this:
 
 ```js
 {
@@ -245,7 +245,7 @@ First, let's review your current web service experience. When returning a single
 }
 ```
 
-When returning a collection, the response looks something like this:
+When returning a collection, the JSON response looks something like this:
 
 ```js
 [{
@@ -287,15 +287,13 @@ links | array of link objects | Package-level controls
 count | number | Item count being returned
 data | array of item(s) | Data items, each one includes a "links" collection
 
-More info: 
-
 <br>
 
 <strong>Metadata properties, timestamp, version, and count</strong>
 
 As their name suggest, these properties provide useful information about the representation.
 
-"count" provides an easy top-level and calculation-free way for the requestor to determine how many items are in the collection. A "get one" will return "1" as the value. A "get all" will return zero or more as the value.
+"count" provides an easy top-level and calculation-free way for the requestor to determine how many items are in the collection. A "get one" will return "1". A "get all" will return zero or more.
 
 "version" is programmer-provided, and can be an easy way to tell the requestor about the version number of the representation.
 
@@ -315,22 +313,18 @@ The "links" property holds one or more link relations that are relevant for the 
 
 <br>
 
-<strong>Example of "get one" customer</strong>
+<strong>Example of "get one"</strong>
 
-Here's what "get one" customer could look like:
+Here's what "get one" could look like:
 
 <a href="/media/hr-for-item.png" target="_blank"><img src="../media/hr-for-item.png" alt="Hypermedia representation - item" class="border1" /></a>
 
 <br> 
 
-<strong>Example of "get all" customers</strong>
+<strong>Example of "get all"</strong>
 
-Here's what "get all" customers could look like. First, the top part...
+Here's what "get all" could look like (just the top part):
 
-<a href="/media/hr-for-collection-top.png" target="_blank"><img src="../media/hr-for-collection-top.png" alt="Hypermedia representation - collection" class="border1" /></a>
-
-Next, the bottom part...
-
-<a href="/media/hr-for-collection-bottom.png" target="_blank"><img src="../media/hr-for-collection-bottom.png" alt="Hypermedia representation - collection" class="border1" /></a>
+<a href="/media/hr-for-collection.png" target="_blank"><img src="../media/hr-for-collection.png" alt="Hypermedia representation - collection" class="border1" /></a>
 
 <br>
