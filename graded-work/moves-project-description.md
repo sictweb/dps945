@@ -39,9 +39,9 @@ Location with Google maps (help with finding your way to important locations, fo
 
 Button (call to action button) for emergency calls  
 
-Push notification – if something important happens in the area, then the volunteers will know 
+Push notification - if something important happens in the area, then the volunteers will know 
 
-Leave a message for MO:VES (or chat with MO:VES) – Background Sync. 
+Leave a message for MO:VES (or chat with MO:VES) - Background Sync. 
 
 #### Technical minimum requirements:
 
