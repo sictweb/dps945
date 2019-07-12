@@ -25,7 +25,7 @@ A brief discussion about hosting
 * Azure 
 * Heroku and MongoDB Atlas
 
-The course programming project
+[The course programming project](/graded-work/moves-july-12)
 * Introduction 
 * Discussion and planning 
 
