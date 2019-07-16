@@ -1,9 +1,9 @@
 ---
-title: MO:VES Project notes as of July 12
+title: MO:VES Project Introduction
 layout: default
 ---
 
-## MO:VES Project notes as of July 12
+## MO:VES Project Introduction
 
 This document is the first that begins to define the specifications of the project. 
 
@@ -23,13 +23,17 @@ This linked project description was based on the ask and information from the cl
 
 [MO:VES Project Description](moves-project-description)
 
+We have also prepared some background information:  
+
+[MO:VES Project Background](moves-project-background)
+
 <br>
 
 ### Orientation, getting familiar 
 
 From the document, extract and note the goals, features, functionality, and so on. Remember, our primary goal in July is to create the web service, so make sure that you focus on that (but you still can consider the user app's needs).
 
-Take some time to visit the mentioned [Irish web site](https://www.itas.ie) for ideas, inspiration, and scope. 
+Take some time to visit the web sites, and go through the content for ideas, inspiration, and scope. 
 
 <br>
 
@@ -41,6 +45,8 @@ One of the important characteristics of the user app is that it will mostly work
 
 This will be done partly as an individual, paired, or small team task. Then we will all get together and share the results. The professor will document that part (although you are still expected to make your own notes). 
 
-> Should we use a shared Word online (via the College's Office 365 capability)? 
+<br>
+
+> The first version of this document was posted and discussed on July 12, 2019.
 
 <br>
