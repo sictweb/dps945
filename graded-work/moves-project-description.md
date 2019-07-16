@@ -49,7 +49,7 @@ Leave a message for MO:VES (or chat with MO:VES) - Background Sync.
 * Service Worker has to register and at least catch fetch events (preferably more)
 * There has to be a deliberate caching strategy that you can explain
 * The app should be user-friendly and easy to use even when stressed
-* Performance is important for PWAs – it should at least have over 80% on Lighthouse
+* Performance is important for PWAs - it should at least have over 80% on Lighthouse
 
 If you have any questions about the project you can write Sofie (from Den Sociale Retshjælps Fond) on the email: sofie@shiningsun.dk
 
