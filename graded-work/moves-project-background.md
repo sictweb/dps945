@@ -37,12 +37,12 @@ For the MO:VES service, ICVA was inspired by the principles and goals of the [Ir
 
 #### Sofie, our local contact
 
-Sofie Clausen is our local contact.
+Sofie Hansen is our local contact.
 
-She works at [Den Sociale Retshjælps Fond](https://www.socialeretshjaelp.dk/) (legal services in Aarhus)
+She works at [Den Sociale Retshjælps Fond](https://www.socialeretshjaelp.dk/) (legal aid services in Aarhus)
 
 Email is sofie@shiningsun.dk
 
-![Sofie Clausen](/media/sofie-clausen.png)
+![Sofie Hansen](/media/sofie-hansen.png)
 
 <br>

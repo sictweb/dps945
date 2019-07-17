@@ -5,7 +5,8 @@ layout: default
 
 ## DPS945 Week 3 Notes
 
-Week that ends with Friday, July 19. A number of areas of interest this week. 
+Week that ends with Friday, July 19.  
+A number of areas of interest this week. 
 
 <br>
 
@@ -15,5 +16,10 @@ Week that ends with Friday, July 19. A number of areas of interest this week.
 * Introduction 
 * Discussion and planning 
 
+[Background information](/graded-work/moves-project-background)
+
+[General specifications](/graded-work/moves-project-general-specs)
+
+[Web API specifications](/graded-work/moves-project-webapi-specs)
 
 <br>

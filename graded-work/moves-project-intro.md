@@ -27,6 +27,10 @@ We have also prepared some background information:
 
 [MO:VES Project Background](moves-project-background)
 
+Here are links to ICVA client/sponsor web site:  
+* Web site [home](https://cfvaa.com/)  
+* [MO:VES page](https://cfvaa.com/moves-2/) on the web site  
+
 <br>
 
 ### Orientation, getting familiar 

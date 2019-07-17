@@ -29,7 +29,7 @@ We want all volunteers to feel safe, and be safe, in the country that they are i
 
 ### The project 
 
-In this project, you will create and prepare a Progressive Web App for MO:VES. You can use the provided Wireframes (Mockup) or you can come up with your own User friendly design. However your focus is to make a functional prototype, and not focus on making a beautiful design. (The web texts will be provided as well, if not use placeholder text.) 
+In this project, you will create and prepare a Progressive Web App for MO:VES. You can use the provided wireframes (Mockup) or you can come up with your own user friendly design. However your focus is to make a functional prototype, and not focus on making a beautiful design. (The web texts will be provided as well, if not use placeholder text.) 
 
 It is up to each group to decide which function(s) they focus on in this project. You can look at the [ITAS.IE website](https://www.itas.ie) to get inspiration and ideas for the MOV:ES website. Here are some inputs on which functions you can focus on:
 
