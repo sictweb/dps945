@@ -23,7 +23,7 @@ userName | string | Formatted as an email address
 fullName | string | 
 password | string | Initially an empty string
 statusActivated | boolean | Initially false, but true after an account is created or re-activated 
-statusLocked | boolean | Initially false, but true after an account is created or re-activated
+statusLocked | boolean | Initially false, but true after lock-out action is done
 role | string | A role claim 
 claims | array of strings | Initially empty, can be used to accumulate claims
 
