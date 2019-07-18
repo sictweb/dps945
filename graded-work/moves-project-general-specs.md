@@ -7,8 +7,6 @@ layout: default
 
 This was most recently revised on July 16, 2019. 
 
-<mark>This document is being edited.<br>This notice will be removed when the edits are complete.</mark>
-
 <br>
 
 ### Parsing the asks by the sponsor/client
