@@ -68,7 +68,7 @@ roles | array (1) | Role claims
 claims | array (2) | Initially empty, for claims
 
 (1) Array of zero or more strings  
-(2) Array of zero or more claims, each of which is a key-value pair of strings (see below)
+(2) Array of zero or more claims, each of which is an object as defined below
 
 #### Role 
 
@@ -98,17 +98,19 @@ A claim can be used by a system for any of these reasons:
 
 A user account has a collection (an array) of zero or more claims. 
 
-The structure of a claim is that of a simple object, with one key-value pair (of strings). For example:
+The structure of a claim object is shown below. It has two string properties, "type" and "value". For example:
+
+<mark>&nbsp;The following has been updated&nbsp;</mark>
 
 ```js
 // info that could be used to describe
-{ firstName: 'Peter' }
+{ type: 'firstName', value: 'Peter' }
 // or...
 // info that could be used to control access
-{ OU: "Morocco" }
+{ type: 'OU', value: "Morocco" }
 // or...
 // info that could be used to perform a task or activity
-{ Task: 'UserProfileEdit' }
+{ type: 'Task', value: 'UserProfileEdit' }
 ```
 
 In the MO:VES app, there will likely be a small number of claims, but the design will easily accommodate more if needed during the lifetime of the project. 
@@ -216,6 +218,7 @@ To enable this approach, we must design an entity for the text content. At this 
 Property | Data type | Comments
 --- | --- | ---
 [slug](https://en.wikipedia.org/wiki/Clean_URL#Slug) | string | Enables us to use an understandable string in our code instead of an opaque identifier 
+title | string | Human-readable string for the browser tab (if the content is being viewed in a browser)
 language | string | ISO standard code that indicates the content's language 
 timestamp | string | The content revision date-and-time, as an ISO 8601 string
 visibility<br>(or audience) | array<br>(strings) | Empty (for anonymous), or one or more roles; defines which requests can get/fetch/read the document
@@ -281,6 +284,8 @@ organization | string | Most will be ICVA
 supervisor | string | Email address of supervisor
 locationCountry | string | Based in this country
 locationLocal | string | Based in this city/town/region
+
+<mark>"Emergency contact" fields will probably be added to the above - <br>I have to give this some thought</mark>
 
 With the appropriate thought, design, and implementation, it could also be used as a personal profile, so that relevant info about a person could be quickly gathered in the event of an emergency. Some additional properties could include
 
