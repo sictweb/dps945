@@ -1,0 +1,10 @@
+[{"userName":"dshoreson@example.com","fullName":"Des Shoreson","password":null,"statusActivated":false,"statusLocked":false,"roles":[],"claims":[]},
+{"userName":"mtimbs@example.com","fullName":"Mikel Timbs","password":null,"statusActivated":false,"statusLocked":false,"roles":[],"claims":[]},
+{"userName":"adeans@example.com","fullName":"Arthur Deans","password":null,"statusActivated":false,"statusLocked":false,"roles":[],"claims":[]},
+{"userName":"phuckerbe@example.com","fullName":"Pansy Huckerbe","password":null,"statusActivated":false,"statusLocked":false,"roles":[],"claims":[]},
+{"userName":"tconigsby@example.com","fullName":"Taffy Conigsby","password":null,"statusActivated":false,"statusLocked":false,"roles":[],"claims":[]},
+{"userName":"jgravatt@example.com","fullName":"Janette Gravatt","password":null,"statusActivated":false,"statusLocked":false,"roles":[],"claims":[]},
+{"userName":"ndye@example.com","fullName":"Nichole Dye","password":null,"statusActivated":false,"statusLocked":false,"roles":[],"claims":[]},
+{"userName":"zdesousa@example.com","fullName":"Zondra DeSousa","password":null,"statusActivated":false,"statusLocked":false,"roles":[],"claims":[]},
+{"userName":"rlefeaver@example.com","fullName":"Ric Lefeaver","password":null,"statusActivated":false,"statusLocked":false,"roles":[],"claims":[]},
+{"userName":"wpirolini@example.com","fullName":"Walden Pirolini","password":null,"statusActivated":false,"statusLocked":false,"roles":[],"claims":[]}]
