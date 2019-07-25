@@ -21,8 +21,6 @@ Features:
 
 Open the README.md document for how-to info.
 
-<mark>The code will be updated with token authentication and authorization on July 25</mark>
-
 <br>
 
 ### Web service tempate v1

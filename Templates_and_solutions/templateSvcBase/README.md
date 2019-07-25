@@ -50,15 +50,11 @@ mongoimport --db databasename --collection cars --file dbdata-cars.json --jsonAr
 
 Now, open the project in your code editor.  
 
-Update the `databasename` text in `manager.js`.
-* Near line 45 
+Update the `databasename` text in `manager.js` (near line 44). 
 
-Generate the value for `jwtOptions.secretOrKey` in `server.js`.
-* Near line 52
+Generate the value for `jwtOptions.secretOrKey` in `server.js` (near line 54).
 
 Start/run the server.  
 Test with Postman.
-
-<mark>&nbsp;Notice on Wed Jul 24 at 5:00pm...&nbsp;<br>&nbsp;This version does not do token authentication or authorization.&nbsp;<br>&nbsp;An updated version with those features will be posted&nbsp;<br>&nbsp;on Thu Jul 25 in the morning.&nbsp;</mark>
 
 <br>

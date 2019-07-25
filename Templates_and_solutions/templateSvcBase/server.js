@@ -39,6 +39,8 @@ var JwtStrategy = passportJWT.Strategy;
 
 // Configure its options
 var jwtOptions = {};
+// Configure the issuer
+jwtOptions.issuer = 'useraccounts.example.com';
 // Choose whether the incoming authorization header scheme is BEARER or JWT
 jwtOptions.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
 //jwtOptions.jwtFromRequest = ExtractJwt.fromAuthHeaderWithScheme("jwt");
@@ -52,13 +54,16 @@ jwtOptions.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
 jwtOptions.secretOrKey = 'generate-your-own-value';
 
 var strategy = new JwtStrategy(jwtOptions, function (jwt_payload, next) {
-  console.log('payload received', jwt_payload);
 
-  if (jwt_payload) {
-    // The following will ensure that all routes using 
-    // passport.authenticate have a req.user._id value 
-    // that matches the request payload's _id
-    next(null, { _id: jwt_payload._id });
+  // Get the timestamp now
+  let now = Date.now();
+  now = Math.round(now / 1000);
+
+  // Unpack and validate the token by ensuring that it has not expired
+  if (jwt_payload && now < jwt_payload.exp) {
+    // Attach the token's contents to the request
+    // It will be available as "req.user" in the route handler functions
+    next(null, jwt_payload);
   } else {
     next(null, false);
   }
@@ -93,6 +98,12 @@ app.get("/api/useraccounts", (req, res) => {
     .catch((error) => {
       res.status(500).json({ "message": error });
     })
+});
+
+// Get info about me
+app.get("/api/useraccounts/me", passport.authenticate('jwt', { session: false }), (req, res) => {
+  // Return the token contents
+  res.json({ "message": "Token contents", token: req.user });
 });
 
 // Get one (for dev testing only; disable or protect before deployment)
@@ -150,19 +161,22 @@ app.post("/api/useraccounts/login", (req, res) => {
   m.useraccountsLogin(req.body)
     .then((data) => {
 
-      // Calculate an expiry time
-      // 86400 seconds in a day
-      // Assume 14 days
+      // Calculate an expiry time...
+      // There are 86400 seconds in a day
+      // Assume a token lifetime of 14 days
       let now = Date.now();
       let exp = Math.round(now / 1000) + (86400 * 14);
+      // For testing purposes, expire the token in 120 seconds
+      //let exp = Math.round(now / 1000) + 120;
 
-      // Configure the payload with data and claims\
+      // Configure the payload with data and claims
       // Properties are defined here...
       // https://tools.ietf.org/html/rfc7519
       var payload = {
-        iss: 'example.com',
+        iss: 'useraccounts.example.com',
         exp: exp,
-        _id: data._id,
+        //_id: data._id,
+        sub: data.userName,
         email: data.userName,
         name: data.fullName,
         roles: data.roles,
@@ -181,10 +195,72 @@ app.post("/api/useraccounts/login", (req, res) => {
 
 
 // ################################################################################
+// Request handlers for testing security scenarios
+
+// For any route, if you add the "passport.authenticate..." function to the parameters,
+// it is equivalent to "yes, the request is authenticated", and no further test is required
+// Howevever, when you have to look deeper, and look for a specific claim, continue below...
+
+// Example - look for a specific role claim
+app.get('/api/security/testrole2', passport.authenticate('jwt', { session: false }), (req, res) => {
+
+  // req.user has the token contents
+  if (req.user.roles.findIndex(role => role === 'Role2') > -1) {
+    // Success
+    res.json({ message: "User has role claim Role2" })
+  } else {
+    res.status(403).json({ message: "User does not have the role claim needed" })
+  }
+});
+
+// Example - look for a specific custom claim
+app.get('/api/security/testoulocation1', passport.authenticate('jwt', { session: false }), (req, res) => {
+
+  // req.user has the token contents
+  if (req.user.claims.findIndex(claim => claim.type === 'OU' && claim.value === 'Location1') > -1) {
+    // Success
+    res.json({ message: "User has custom claim OU = Location1" })
+  } else {
+    res.status(403).json({ message: "User does not have the custom claim needed" })
+  }
+});
+
+// Example - look for a combination; a specific role claim, and a specific custom claim
+app.get('/api/security/testrole2andoulocation1', passport.authenticate('jwt', { session: false }), (req, res) => {
+
+  // The -if- statement will look too ugly, so write a few more helper statements
+  const roleIndex = req.user.roles.findIndex(role => role === 'Role2');
+  const claimIndex = req.user.claims.findIndex(claim => claim.type === 'OU' && claim.value === 'Location1');
+
+  // req.user has the token contents
+  if (roleIndex + claimIndex > -2) {
+    // Success
+    res.json({ message: "User has role claim Role2 and custom claim OU = Location1" })
+  } else {
+    res.status(403).json({ message: "User does not have the claims needed" })
+  }
+});
+
+
+
+// ################################################################################
 // Request handlers for data entities (listeners)
 
 // Get all
 app.get("/api/cars", (req, res) => {
+  // Call the manager method
+  m.carGetAll()
+    .then((data) => {
+      //res.json(data);
+      res.json(package(data, '/api/cars'));
+    })
+    .catch((error) => {
+      res.status(500).json({ "message": error });
+    })
+});
+
+// Get all, PROTECTED!
+app.get("/api/carsprotected", passport.authenticate('jwt', { session: false }), (req, res) => {
   // Call the manager method
   m.carGetAll()
     .then((data) => {
