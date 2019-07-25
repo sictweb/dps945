@@ -16,11 +16,15 @@ var data = [{ "id": 1, "firstName": "Reagen", "lastName": "Lincke", "gender": "M
 
 // Function will accept incoming info and return a JavaScript object
 
-function package(data, path) {
+// ################################################################################
+// Hypermedia representation packaging function
 
-  // Incoming info:
-  // data       object or array        The data to be packaged 
-  // path       string                 The base path segment to the entity collection URL
+function package(incomingData, path) {
+
+  // IMPORTANT - Edit the identifier property name (lines 59 and 82)
+  // Some data sources use "id" as the name
+  // However, it's different in MongoDB
+  // Its identifier property is "_id" (which is different from "id" or "ID" etc.)
 
   // Package is an object with these key-value pairs:
   // timestamp  string                 Current date-and-time, as an ISO 8601 string
@@ -29,33 +33,56 @@ function package(data, path) {
   // count      number                 Item count being returned
   // data       array of item(s)       Data items, each one includes a "links" collection
 
-  // The function will return an object
-  // The data will be packaged inside
-  // The caller will then run the package through JSON.stringify()
+  // Common tasks:
+  // Add package metadata
 
-  // First task, create an object that will be the package
-  // Add the known metadata (i.e. timestamp, version)
+  let now = new Date();
+  let pkg = {
+    timestamp: now.toISOString(),
+    version: '1.0.0',
+  };
 
-  // Determine if the incoming data is an object or an array, then...
+  // Determine if the incoming data is an object or an array
+  const isItem = (incomingData.length == undefined);
 
-  // If it is an object...
-  // =====================
-  // Package links will have self and collection
-  // Item links will have self and collection
-  // Incoming data is put into an array and added to the package
-  // Set the package count value
+  // Make a local copy of the incoming data
+  // Must do this to break the Mongoose schema prototype dependency
+  let data = JSON.parse(JSON.stringify(incomingData));
 
-  // If it is an array...
-  // ====================
-  // Package links will have self only
-  // Item links will have self for each item, generated 
-  // (this can be done at least two ways, array forEach(), 
-  // or array map() with spread syntax to add a new object property)
-  // Set the package count value
+  if (isItem) {
 
-  // At the end, return the packaged data as a JavaScript object
-  // (but not as JSON - leave that task to the caller)
+    // Item tasks:
+    // Package links will have self and collection
+    // Item links will have self and collection
+    // Incoming data is put into an array and added to the package
 
+    pkg.links = [{ href: `${path}/${data.id}`, rel: 'self' }, { href: path, rel: 'collection' }];
+    pkg.count = 1;
+    data.links = [{ href: `${path}/${data.id}`, rel: 'self' }, { href: path, rel: 'collection' }];
+    pkg.data = [data];
+
+  } else {
+
+    // Collection tasks:
+    // Package links will have self only
+    // Item links will have self for each item, generated 
+
+    pkg.links = [{ href: path, rel: 'self' }];
+    pkg.count = data.length;
+
+    // For each syntax
+    /*
+    data.forEach(e => {
+      e.links = [{ href: `${path}/${e.id}`, rel: 'self' }, { href: path, rel: 'collection' }];
+    });
+    pkg.data = data;
+    */
+
+    // Map and spread syntax
+    pkg.data = data.map(e => ({ ...e, links: [{ href: `${path}/${e.id}`, rel: 'self' }, { href: path, rel: 'collection' }] }));
+  }
+
+  return pkg;
 }
 
 // Show results
