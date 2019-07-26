@@ -51,8 +51,7 @@ jwtOptions.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
 // You MUST generate a random 64-character string using the following online tool:
 // https://lastpass.com/generatepassword.php 
 // And use it as the value for the following...
-//jwtOptions.secretOrKey = 'generate-your-own-value';
-jwtOptions.secretOrKey = '&0y7$noP#5rt99&GB%Pz7j2b1vkzaB0RKs%^N^0zOP89NT04mPuaM!&G8cbNZOtH';
+jwtOptions.secretOrKey = 'generate-your-own-value';
 
 var strategy = new JwtStrategy(jwtOptions, function (jwt_payload, next) {
 
