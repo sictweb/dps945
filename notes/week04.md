@@ -26,3 +26,17 @@ Time | Group/Team
 3:30 pm | Group A
 
 <br>
+
+Here are the links from last week's notes page:
+
+[The course programming project](/graded-work/moves-project-intro)
+
+[Background information](/graded-work/moves-project-background)
+
+[General specifications](/graded-work/moves-project-general-specs)
+
+[Web API specifications](/graded-work/moves-project-webapi-specs)
+
+Also, remember the code examples in the repository. 
+
+<br>
