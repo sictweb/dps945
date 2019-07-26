@@ -2,7 +2,14 @@
 // ############################################################
 // Requests to handle user account tasks
 
-// Get all (for dev testing only; disable or protect before deployment)
+// Get info about me; it will return the token contents
+app.get("/api/useraccounts/me", passport.authenticate('jwt', { session: false }), (req, res) => {
+  // Return the token contents
+  res.json({ "message": "Token contents", token: req.user });
+});
+
+// Get all (for dev testing only; DISABLE or PROTECT before deployment!)
+// (Maybe make it available only to requests that have the "UserAccountManager" role)
 app.get("/api/useraccounts", (req, res) => {
   // Call the manager method
   m.useraccountsGetAll()
@@ -15,13 +22,8 @@ app.get("/api/useraccounts", (req, res) => {
     })
 });
 
-// Get info about me
-app.get("/api/useraccounts/me", passport.authenticate('jwt', { session: false }), (req, res) => {
-  // Return the token contents
-  res.json({ "message": "Token contents", token: req.user });
-});
-
-// Get one (for dev testing only; disable or protect before deployment)
+// Get one (for dev testing only; DISABLE or PROTECT before deployment!)
+// (Maybe make it available only to requests that have the "UserAccountManager" role)
 app.get("/api/useraccounts/:id", (req, res) => {
   // Call the manager method
   m.useraccountsGetById(req.params.id)

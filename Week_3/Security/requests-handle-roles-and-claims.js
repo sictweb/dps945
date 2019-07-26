@@ -33,12 +33,14 @@ app.get('/api/security/testoulocation1', passport.authenticate('jwt', { session:
 // Example - look for a combination; a specific role claim, and a specific custom claim
 app.get('/api/security/testrole2andoulocation1', passport.authenticate('jwt', { session: false }), (req, res) => {
 
+  // req.user has the token contents
+
   // The -if- statement will look too ugly, so write a few more helper statements
   const roleIndex = req.user.roles.findIndex(role => role === 'Role2');
   const claimIndex = req.user.claims.findIndex(claim => claim.type === 'OU' && claim.value === 'Location1');
 
-  // req.user has the token contents
-  if (roleIndex + claimIndex > -2) {
+  // Make sure that both are found
+  if (roleIndex > -1 && claimIndex > -1) {
     // Success
     res.json({ message: "User has role claim Role2 and custom claim OU = Location1" })
   } else {
