@@ -51,7 +51,8 @@ jwtOptions.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
 // You MUST generate a random 64-character string using the following online tool:
 // https://lastpass.com/generatepassword.php 
 // And use it as the value for the following...
-jwtOptions.secretOrKey = 'generate-your-own-value';
+//jwtOptions.secretOrKey = 'generate-your-own-value';
+jwtOptions.secretOrKey = '&0y7$noP#5rt99&GB%Pz7j2b1vkzaB0RKs%^N^0zOP89NT04mPuaM!&G8cbNZOtH';
 
 var strategy = new JwtStrategy(jwtOptions, function (jwt_payload, next) {
 
@@ -87,7 +88,14 @@ app.get("/", (req, res) => {
 // ############################################################
 // Requests to handle user account tasks
 
-// Get all (for dev testing only; disable or protect before deployment)
+// Get info about me; it will return the token contents
+app.get("/api/useraccounts/me", passport.authenticate('jwt', { session: false }), (req, res) => {
+  // Return the token contents
+  res.json({ "message": "Token contents", token: req.user });
+});
+
+// Get all (for dev testing only; DISABLE or PROTECT before deployment!)
+// (Maybe make it available only to requests that have the "UserAccountManager" role)
 app.get("/api/useraccounts", (req, res) => {
   // Call the manager method
   m.useraccountsGetAll()
@@ -100,13 +108,8 @@ app.get("/api/useraccounts", (req, res) => {
     })
 });
 
-// Get info about me
-app.get("/api/useraccounts/me", passport.authenticate('jwt', { session: false }), (req, res) => {
-  // Return the token contents
-  res.json({ "message": "Token contents", token: req.user });
-});
-
-// Get one (for dev testing only; disable or protect before deployment)
+// Get one (for dev testing only; DISABLE or PROTECT before deployment!)
+// (Maybe make it available only to requests that have the "UserAccountManager" role)
 app.get("/api/useraccounts/:id", (req, res) => {
   // Call the manager method
   m.useraccountsGetById(req.params.id)
@@ -228,12 +231,14 @@ app.get('/api/security/testoulocation1', passport.authenticate('jwt', { session:
 // Example - look for a combination; a specific role claim, and a specific custom claim
 app.get('/api/security/testrole2andoulocation1', passport.authenticate('jwt', { session: false }), (req, res) => {
 
+  // req.user has the token contents
+
   // The -if- statement will look too ugly, so write a few more helper statements
   const roleIndex = req.user.roles.findIndex(role => role === 'Role2');
   const claimIndex = req.user.claims.findIndex(claim => claim.type === 'OU' && claim.value === 'Location1');
 
-  // req.user has the token contents
-  if (roleIndex + claimIndex > -2) {
+  // Make sure that both are found
+  if (roleIndex > -1 && claimIndex > -1) {
     // Success
     res.json({ message: "User has role claim Role2 and custom claim OU = Location1" })
   } else {
