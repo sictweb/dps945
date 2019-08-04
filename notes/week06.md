@@ -15,7 +15,7 @@ This week's topics get us started with the project, and progressive web app tech
 
 #### 
 
-Here is a [link to transit to/from the school](denmark/transit-hostel-to-school)
+Here is a [link to transit to/from the school](/denmark/transit-hostel-to-school)
 
 #### Project info
 
