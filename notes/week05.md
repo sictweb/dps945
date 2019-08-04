@@ -11,6 +11,6 @@ Break week, no classes. Prepare to travel to Aarhus, Denmark.
 
 ### Topics
 
-TBA
+(none required)
 
 <br>

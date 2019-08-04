@@ -100,8 +100,6 @@ A user account has a collection (an array) of zero or more claims.
 
 The structure of a claim object is shown below. It has two string properties, "type" and "value". For example:
 
-<mark>&nbsp;The following has been updated&nbsp;</mark>
-
 ```js
 // info that could be used to describe
 { type: 'firstName', value: 'Peter' }
