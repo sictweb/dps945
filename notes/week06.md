@@ -13,6 +13,10 @@ Week of August 5, in Aarhus, Denmark.
 
 This week's topics get us started with the project, and progressive web app techniques. 
 
+#### 
+
+Here is a [link to transit to/from the school](denmark/transit-hostel-to-school)
+
 #### Project info
 
 Here are the links from July in Canada:
@@ -29,10 +33,6 @@ Here is a [link to the groups/teams](student-teams)
 
 #### Schedule
 
-Here is a link to the tentative schedule. 
-. 
-
-
-
+Here is a [link to the tentative schedule](schedule-detailed)
 
 <br>

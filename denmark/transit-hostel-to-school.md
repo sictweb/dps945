@@ -24,6 +24,22 @@ To get to the school earlier, by 8:30am, plan to leave the hostel about 8:00am. 
 
 <br>
 
+#### Midttraffik is the local transit operator
+
+It appears that the best value for transit is to purchase a multi trip ticket (10 charges). This results in a per-trip charge of 17 DKK (which is about C$3.40). 
+
+Get the [Midttraffik app](https://www.midttrafik.dk/english/tickets/midttrafik-app/). 
+
+After installation, set up an account. Pay by credit card. 
+
+Just before boarding a train, open the app, and "use" one of the tickets. 
+
+> No multi trip ticket?  
+> The per-ticket cost rises to 22 DKK (which is about C$4.40).  
+> Can buy these at machines apparently (before boarding).  
+
+<br>
+
 #### Text info from the Rejseplanen app
 
 > Look for the Rejseplanen app on your device's app store.
