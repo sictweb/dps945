@@ -29,10 +29,10 @@ Here are the links from July in Canada:
 
 #### Groups/teams 
 
-Here is a [link to the groups/teams](student-teams)
+Here is a [link to the groups/teams](/denmark/student-teams)
 
 #### Schedule
 
-Here is a [link to the tentative schedule](schedule-detailed)
+Here is a [link to the tentative schedule](/schedule-detailed)
 
 <br>
