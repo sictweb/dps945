@@ -16,9 +16,9 @@ Here are the groups/teams:
 || Jay (Jayson) |CPA
 |||		
 | Team B | Martin | BAAA |
-|| Jesper | BAAA
 || Rosario | BSD
 || Jessica | BSD
+|| (daily helper) | BSD
 |||
 | Team C | Gyorgy | BAAA |
 || Khang (Ngoc) | BSD
@@ -35,5 +35,16 @@ Here are the groups/teams:
 || Shreena | CPA
 || Yanhao | BSD
 |||
+
+<br>
+
+On the following days, a student will temporarily switch teams, to help out Team B, which has only three members: 
+
+Day | Student 
+--- | ---
+Onsdag Wednesday 7 August | Marina 
+Torsdag Thursday 8 August | Aqeel
+Tirsdag Tuesday 13 August | Ray
+Onsdag Wednesday 14 August | Lars 
 
 <br>
