@@ -18,7 +18,7 @@ Here are the groups/teams:
 | Team B | Martin | BAAA |
 || Rosario | BSD
 || Jessica | BSD
-|| (daily helper) | BSD
+|| (daily helper) | 
 |||
 | Team C | Gyorgy | BAAA |
 || Khang (Ngoc) | BSD
