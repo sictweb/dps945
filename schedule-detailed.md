@@ -69,12 +69,13 @@ derefter<br>then | Team work on the project | | First version of each team's fea
 
 Time | Subject | Leader | Comments
 --- | --- | --- | ---
-08:30 | Stand up meeting | Torill |
+08:30 | Stand up meeting | Torill | 
 08:45 | UX, responsiveness, accessibility | Guest lecturer, Mads | 
 09:45 | Break | | 
 10:00 | Push notifications | Guest lecturer, Kristian | 
 11.00 | Lunch | |
 12:00 | Visit **Trifork**, a tech company in Aarhus<br>Letbanen at 12:09 | Torill, Peter | 
+
 <br>
 
 ---
