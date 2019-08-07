@@ -15,6 +15,8 @@ This document will preview (for the Seneca students) and review (for the Aarhus 
 
 [Google Codelabs, Your First Progressive Web App](https://codelabs.developers.google.com/codelabs/your-first-pwapp/#0)
 
+[React docs, Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
 <br>
 
 ### The principles
@@ -50,5 +52,7 @@ We have briefly discussed this earlier, but here is a reminder:
 * Local Node.js development environment 
 * Editor (e.g. Visual Studio Code) 
 * Google Chrome browser, and its developer tools window/panel
+
+Soon, we will publish some tips and highlights that can help improve your programming experience. There are a number of techniques to remember and use when developing and testing locally. 
 
 <br>

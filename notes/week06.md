@@ -37,7 +37,7 @@ Here is a [link to the tentative schedule](/schedule-detailed)
 
 <br>
 
-### PWA Essential Links
+### PWA Essential Links (Wednesday 7 August)
 
 [PWA principles](pwa-principles) (notes)
 
