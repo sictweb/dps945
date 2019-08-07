@@ -37,8 +37,16 @@ Here is a [link to the tentative schedule](/schedule-detailed)
 
 <br>
 
-### PWA Essential Links (Wednesday 7 August)
+### Wednesday 7 August links
 
-[PWA principles](pwa-principles) (notes)
+[PWA principles](pwa-principles) (document)
+
+[Manifest](https://docs.google.com/presentation/d/1schcrEePnRhnVtj1BZGQRSI5KHEghgCruVy2Ek2RB48/edit?usp=sharing) (Google Slides)
+
+[Service Worker](https://docs.google.com/presentation/d/1vsfITMecgV9KkJWX1WNCYvu1waNsrnjS287w2EVhAgw/edit?usp=sharing) (Google Slides)
+
+[Security considerations](pwa-security-intro) (document)
+
+( more may be posted ) 
 
 <br>
