@@ -45,7 +45,7 @@ derefter<br>then | Team work on the project | |
 Time | Subject | Leader | Comments
 --- | --- | --- | ---
 08:30 | Stand up meeting | Torill | 
-08:45<br>to<br>11:45 | PWA principles (preview or review)<br>Tools<br>Manifest<br>Service Worker<br>Workbox<br>Security features | Torill & Peter | (break from 10:00 to 10:15)
+08:45<br>to<br>11:45 | PWA principles (preview or review)<br>Tools<br>Manifest<br>Service Worker<br>Security features | Torill & Peter | (break from 10:00 to 10:15)
 11:45 | Lunch | | 
 derefter<br>then | Team work on the project | | 
 
