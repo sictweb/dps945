@@ -36,3 +36,9 @@ Here is a [link to the groups/teams](/denmark/student-teams)
 Here is a [link to the tentative schedule](/schedule-detailed)
 
 <br>
+
+#### PWA Essential Links
+
+[PWA principles](pwa-principles) (notes)
+
+<br>
