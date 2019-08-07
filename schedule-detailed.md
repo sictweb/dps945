@@ -62,6 +62,7 @@ Time | Subject | Leader | Comments
 11:00 | Privacy, GDPR, PIPEDA | Guest lecturer, Andrew | 
 11:45 | Lunch | | 
 derefter<br>then | Team work on the project | | First version of each team's feature/module should be ready for distribution and integration
+14:00 | Dismissal | | If you are interested in visiting Den Gamle By (because they close at 17:00) 
 
 <br>
 
