@@ -35,6 +35,7 @@
 
             <!-- <p>current - {{ current[1] }}</p> -->
 
+            <a href="https://dps945.ca/denmark/" {% if current[1] == 'denmark' %}class='btn active'{% else %}class='btn'{% endif %}>Denmark info</a>
             <a href="https://dps945.ca/notes/" {% if current[1] == 'notes' %}class='btn active'{% else %}class='btn'{% endif %}>Notes</a>
             <a href="https://dps945.ca/weekly-schedule" {% if current[1] == 'weekly-schedule.html' %}class='btn active'{% else %}class='btn'{% endif %}>Weekly</a>
             <a href="https://dps945.ca/resources" {% if current[1] == 'resources.html' %}class='btn active'{% else %}class='btn'{% endif %}>Resources</a>
