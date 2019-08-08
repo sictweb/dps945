@@ -44,7 +44,7 @@ How much can be stored? See [this linked document](https://developers.google.com
 
 Start here:
 
-Google Developers, [Web Storage]()  
+Google Developers, [Web Storage](https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/)  
 
 Then use the left-side nav links for related topics. 
 
