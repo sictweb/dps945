@@ -50,3 +50,13 @@ Here is a [link to the tentative schedule](/schedule-detailed)
 ( more may be posted ) 
 
 <br>
+
+### Thursday 8 August links
+
+[Storage choices for your PWA](pwa-storage)
+
+Localization, Internationalization 
+
+Privacy and GDPR
+
+<br>

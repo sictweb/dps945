@@ -59,10 +59,10 @@ Time | Subject | Leader | Comments
 08:45 | Storage choices | Peter | 
 09:15 | Each group briefly describes *their* feature/module | Teams | Up to 10 minutes each; Q&A 
 10:15 | Localization, internationalization | Peter | 
-11:00 | Privacy, GDPR, PIPEDA | Guest lecturer, Andrew | 
+11:00 | Privacy, GDPR, PIPEDA | Guest lecturer, Andrew Michal | 
 11:45 | Lunch | | 
 derefter<br>then | Team work on the project | | First version of each team's feature/module should be ready for distribution and integration
-14:00 | Dismissal | | If you are interested in visiting Den Gamle By (because they close at 17:00) 
+14:00 | Dismissal | | If you are interested in visiting [Den Gamle By](https://www.dengamleby.dk/en/den-gamle-by/) (because it closes at 17:00) 
 
 <br>
 
@@ -71,11 +71,27 @@ derefter<br>then | Team work on the project | | First version of each team's fea
 Time | Subject | Leader | Comments
 --- | --- | --- | ---
 08:30 | Stand up meeting | Torill | 
-08:45 | UX, responsiveness, accessibility | Guest lecturer, Mads | 
+08:45 | UX, responsiveness, accessibility | Guest lecturer, Mads Holst | 
 09:45 | Break | | 
-10:00 | Push notifications | Guest lecturer, Kristian | 
+10:00 | Push notifications | Guest lecturer, Kristian Dorland | 
 11.00 | Lunch | |
 12:00 | Visit **Trifork**, a tech company in Aarhus<br>Letbanen at 12:09 | Torill, Peter | 
+
+Here is the planned travel timeline: 
+* Leave the school no later than 12:00, walk to the Letbane
+* Board the L2 that leaves at 12:09 (the train destination must be Lisbjergskolen)
+* Arrive at Lisbjergskolen, walk to Trifork, ~900m, ~12 minutes
+* Begin our visit at 13:00
+
+After the visit:
+* Leave Trifork no later than 15:15
+* Walk to the Letbane, ~900m, ~12 minutes 
+* Board the L2 towards Aarhus H (the train destination may say Aarhus H, Marslet, or Odder) at 15:31
+* Arrive in Aarhus (Dokk1 or central station) just before 16:00 
+
+Walking route:
+
+![Walking route](/media/lisbjergskolen-to-from-trifork.png)
 
 <br>
 
@@ -86,7 +102,7 @@ Time | Subject | Leader | Comments
 
 Time | Subject | Leader | Comments
 --- | --- | --- | ---
-10:00 | Guided tour of the city | Sharon, EAAA/BAA host | 
+10:00 | Guided tour of the city | Sharon, EAAA/BAA host | Students from the other summer school will also be there
 derefter<br>then | Free time | | Have fun! (Be safe!)
 
 <br>

@@ -22,7 +22,7 @@ As you know, in the route list, each route element has a `render` attribute. Thi
 The following is a typical route element from the `App.js` source code file:
 
 ```jsx
-<Route exact path='/horse' render={() => (<ContactUs />)} />
+<Route exact path='/contact' render={() => (<ContactUs />)} />
 ```
 
 The value of the render attribute is a function. Normally it *returns* an element (which is a component named "ContactUs" in the example above). 
