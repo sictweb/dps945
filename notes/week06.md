@@ -57,6 +57,6 @@ Here is a [link to the tentative schedule](/schedule-detailed)
 
 Localization, Internationalization 
 
-Privacy and GDPR
+Privacy, GDPR, PIPEDA
 
 <br>

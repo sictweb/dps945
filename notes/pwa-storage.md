@@ -36,14 +36,16 @@ How much can be stored? See [this linked document](https://developers.google.com
 
 <br>
 
-### Major section
-
-etc.
+( more to come, including code examples )
 
 <br>
 
-#### Minor sub-section
+### Learning resources
 
-etc.
+Start here:
+
+Google Developers, [Web Storage]()  
+
+Then use the left-side nav links for related topics. 
 
 <br>
