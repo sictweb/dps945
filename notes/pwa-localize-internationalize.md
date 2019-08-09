@@ -17,11 +17,26 @@ We have already discussed our content design, that requires the content author t
 
 
 
+[Simple example, right-to-left](rtl.html)
+
 
 
 ( more to come )
 
 ( user interface artifacts )
+
+<br>
+
+Tips...
+
+Wikipedia can be used to get real text (not lorem ipsum)  
+Left-side menu will show the translations available for that article
+
+Libraries:
+* i18n
+* Airbnb
+* Mozilla Fluent 
+
 
 etc.
 
