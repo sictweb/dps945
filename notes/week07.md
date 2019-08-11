@@ -9,9 +9,7 @@ Week of August 12, in Aarhus, Denmark.
 
 <br>
 
-### Topics
-
-This week's topics include: 
+### Monday 12 August links
 
 TBA
 

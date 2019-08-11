@@ -122,15 +122,15 @@ All day | Free time | | Have fun! (Be safe!)
 
 Time | Subject | Leader | Comments
 --- | --- | --- | ---
-08:30 | Half-way presentation, Team A | | (up to 10 minutes)
-08:45 | Half-way presentation, Team B | | (up to 10 minutes)
-09:00 | Half-way presentation, Team C | | (up to 10 minutes)
-09:15 | Half-way presentation, Team D | | (up to 10 minutes)
-09:30 | Half-way presentation, Team E | | (up to 10 minutes)
-09:45 | Background sync | Peter | 
-10:30 | Hosting, deployment | Peter | 
-11:15 | Team work on the project
-11:45 | Lunch | | 
+08:30 | Teams prepare for presentation 
+09:00 | Half-way presentation, Team A | | (up to 10 minutes)
+09:15 | Half-way presentation, Team B | | (up to 10 minutes)
+09:30 | Half-way presentation, Team C | | (up to 10 minutes)
+09:45 | Half-way presentation, Team D | | (up to 10 minutes)
+10:00 | Half-way presentation, Team E | | (up to 10 minutes)
+10:15 | Break 
+10:30 | Team work on the project | 
+11:45 | Lunch 
 derefter<br>then | Team work on the project | | 
 
 <br>

@@ -55,8 +55,16 @@ Here is a [link to the tentative schedule](/schedule-detailed)
 
 [Storage choices for your PWA](pwa-storage)
 
-Localization, Internationalization 
+[Localization, Internationalization](pwa-localize-internationalize) 
 
-Privacy, GDPR, PIPEDA
+[Privacy, GDPR, PIPEDA](pwa-privacy-gdpr-pipeda.pdf) (from Andrew Michal)
+
+<br>
+
+### Friday 9 August links
+
+[Interaction and Experience Design](pwa-ux-user-interaction.pdf) (Mads Holst)
+
+[Push Notifications](pwa-push-notifications.pdf) (Kristian Dorland)
 
 <br>
