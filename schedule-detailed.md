@@ -129,7 +129,8 @@ Time | Subject | Leader | Comments
 09:45 | Half-way presentation, Team D | | (up to 10 minutes)
 10:00 | Half-way presentation, Team E | | (up to 10 minutes)
 10:15 | Break 
-10:30 | Team work on the project | 
+10:30 | About the final presentation etc. | Torill, Peter
+10:45 | Team work on the project | 
 11:45 | Lunch 
 derefter<br>then | Team work on the project | | 
 
