@@ -13,7 +13,7 @@ Week of August 5, in Aarhus, Denmark.
 
 This week's topics get us started with the project, and progressive web app techniques. 
 
-#### 
+#### Local transit
 
 Here is a [link to transit to/from the school](/denmark/transit-hostel-to-school)
 
