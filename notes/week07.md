@@ -9,8 +9,8 @@ Week of August 12, in Aarhus, Denmark.
 
 <br>
 
-### Monday 12 August links
+### Topics
 
-TBA
+There are few new topics this week, because the teams will be working on their project. 
 
 <br>
