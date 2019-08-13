@@ -141,8 +141,10 @@ derefter<br>then | Team work on the project | |
 Time | Subject | Leader | Comments
 --- | --- | --- | ---
 08:30 | Stand up meeting | Torill | 
-08:45 | Peer review task setup | Torill, Peter | 
-09:00 | Peer review sessions<br>Each team reviews the other teams' work | | (about 10 minutes each)
+08:45 | Team work on the project | 
+10:00 | Break 
+10:15 | Peer review task setup | Torill, Peter | 
+10:30 | Peer review sessions<br>Each team reviews the other teams' work | | (about 30 minutes total)
 derefter<br>then | Team work on the project |  | 
 11:45 | Lunch | | 
 derefter<br>then | Team work on the project | | 
