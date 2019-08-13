@@ -31,9 +31,9 @@ The plan is to do the following:
 
 Allow about a half-hour. Use the following as a checklist to review the progress of the other team's work. 
 
-[Peer review checklist](peer-review-checklist.html)
+[Peer review checklist](pwa-peer-review-checklist.html)
 
-The document can be edited. Click the first input field "(Team X review of Team Y progress)" and edit. Use tab (and shift-tab) to navigate to the next (or previous) input field. 
+The document can be edited. Click the first input field at the top, "name" and edit (e.g. "Team X review of Team Y progress"). Use tab (and shift-tab) to navigate to the next (or previous) input field. 
 
 After completing the checklist, print to PDF, and email the PDF to Torill and Peter. 
 
