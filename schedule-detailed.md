@@ -156,8 +156,8 @@ derefter<br>then | Team work on the project | |
 Time | Subject | Leader | Comments
 --- | --- | --- | ---
 08:30 | Stand up meeting | Torill | 
-08:45 | Testing and QA | Torill (TBA) | 
-10:30 | Performance | Peter (TBA) |
+08:45 | Testing and QA | Peter | 
+09:00 | Performance | Torill |
 derefter<br>then | Team work on the project |  | 
 11:45 | Lunch | | 
 derefter<br>then | Team work on the project | | 

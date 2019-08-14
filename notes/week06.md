@@ -67,4 +67,7 @@ Here is a [link to the tentative schedule](/schedule-detailed)
 
 [Push Notifications](pwa-push-notifications.pdf) (Kristian Dorland)
 
+Visit [Trifork](https://trifork.com/)  
+*Technology experts that enjoy delivering scalable and agile projects for complex business issues, in partnership with our customers*
+
 <br>
