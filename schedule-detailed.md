@@ -169,9 +169,12 @@ derefter<br>then | Team work on the project | |
 Time | Subject | Leader | Comments
 --- | --- | --- | ---
 08:30 | Stand up meeting | Torill | 
+08:45 | Project management | Torill
+09:00 | How to submit your work, and<br>what to submit | Torill, Peter
 derefter<br>then | Team work on the project |  | 
 11:45 | Lunch | | 
 derefter<br>then | Team work on the project | | 
+16:00 | Pizza dinner (in the canteen area) | |
 
 <br>
 
@@ -185,6 +188,6 @@ Time | Subject | Leader | Comments
 10:30 | Final presentation, Team D | | 
 11:10 | Final presentation, Team E | | 
 11:50 | Summer course adjournment<br>Gather student feedback | Torill, Peter | 
-derefter<br>then | Lunch, then free time | 
+derefter<br>then | Lunch, then free time<br>(remember to submit your work!) | 
 
 <br>
