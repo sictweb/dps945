@@ -283,7 +283,7 @@ supervisor | string | Email address of supervisor
 locationCountry | string | Based in this country
 locationLocal | string | Based in this city/town/region
 
-<mark>"Emergency contact" fields will probably be added to the above - <br>I have to give this some thought</mark>
+<mark>"Emergency contact" fields will probably be added to the above - <br>We must give this some thought</mark>
 
 With the appropriate thought, design, and implementation, it could also be used as a personal profile, so that relevant info about a person could be quickly gathered in the event of an emergency. Some additional properties could include
 

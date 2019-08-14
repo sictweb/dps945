@@ -52,3 +52,24 @@ Two brief topic presentations today:
 [Performance considerations](pwa-aug-14-performance.pdf)
 
 <br>
+
+### Friday 16 August notes
+
+Today, each group will present their work. Here is a [link to the schedule](/schedule-detailed#fredag-friday-16-august). We will begin at 08:30, so Team A should be ready to go then. Sofie will attend, and Anders (teacher of Rasmus) will too for Team E's presentation. 
+
+Each timeslot will be about 40 minutes in length. That should allow a few minutes setup and completion time between each team's presentation. 
+
+Make sure that at least two team computers have the [Airtame](https://airtame.com/start) software, and that you have tested the system. 
+
+Also, practice your team's presentation before delivering it on Friday morning. 
+
+For each presentation, plan on the following:
+* Presentation - each team member participates - total length will be about 10 minutes 
+* Don't worry about creating a lengthy slide set - the presentation is brief, and we're more interested in your thoughts and words, and in a demonstration 
+* Demonstrate the app, show some of the code
+* Be prepared to answer questions about the app, the development process, and so on 
+* As an audience member, be prepared to ask the presenting team questions 
+* Be honest, don't hide problems or difficulties
+* Talk about an example of a problem, and how it was resolved
+
+<br>

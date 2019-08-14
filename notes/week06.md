@@ -79,7 +79,10 @@ Knowing the component names will enable you to create placeholder components in 
 
 [Push Notifications](pwa-push-notifications.pdf) (Kristian Dorland)
 
-Visit [Trifork](https://trifork.com/)  
+Visit [Trifork](https://trifork.com/) in Aarhus north  
 *Technology experts that enjoy delivering scalable and agile projects for complex business issues, in partnership with our customers*
+
+* See the timings and map in the [schedule document](/schedule-detailed#fredag-friday-9-august) 
+* Here is [their presentation](pwa-trifork-presentation.pdf) (edited) 
 
 <br>
