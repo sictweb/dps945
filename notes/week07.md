@@ -43,3 +43,12 @@ Another topic is authentication. Rafi Ungar is sharing the procedure and code th
 
 <br>
 
+### Wednesday 14 August notes
+
+Two brief topic presentations today:
+
+[Testing and quality assurance](pwa-aug-14-testing.pdf)
+
+[Performance considerations](pwa-aug-14-performance.pdf)
+
+<br>
