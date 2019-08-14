@@ -59,6 +59,18 @@ Here is a [link to the tentative schedule](/schedule-detailed)
 
 [Privacy, GDPR, PIPEDA](pwa-privacy-gdpr-pipeda.pdf) (from Andrew Michal)
 
+Here is information about the feature that [each team](/denmark/student-teams) is working on:
+
+Team | Feature | Component name 
+--- | --- | ---
+A | Location services | `Geolocation` 
+B | Emergency contact outgoing | `EmergencyContact` 
+C | Push notifications | `Push`
+D | People list | `PeopleList` 
+E | Incoming communications | `IncomingComms`
+
+Knowing the component names will enable you to create placeholder components in your team's app while you wait for finished code. 
+
 <br>
 
 ### Friday 9 August links
