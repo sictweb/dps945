@@ -29,6 +29,12 @@ Here is a [link to the schedule](/schedule-detailed)
 
 <br>
 
+### Monday 12 August notes
+
+Half-way presentations are scheduled for the first hour or so in the morning. Then, the teams continue work on their apps. 
+
+<br>
+
 ### Tuesday 13 August notes
 
 One of the topics today is a *peer review*. This kind of task is frequently done in workplaces, and enables a team to get feedback on progress, share their design and thought process, and maybe get help on challenging issues. 
@@ -64,6 +70,12 @@ Two brief topic presentations today:
 [Testing and quality assurance](pwa-aug-14-testing.pdf)
 
 [Performance considerations](pwa-aug-14-performance.pdf)
+
+<br>
+
+### Thursday 15 August notes
+
+Rasmus Klatt delivered a presentation on [project management](pwa-project-management-rasmus.pdf) techniques, observations, and suggestions. 
 
 <br>
 

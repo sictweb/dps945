@@ -168,13 +168,14 @@ derefter<br>then | Team work on the project | |
 
 Time | Subject | Leader | Comments
 --- | --- | --- | ---
-08:30 | Stand up meeting | Torill | 
-08:45 | Project management | Torill
+08:30 | Announcements etc. | Torill | 
+08:45 | Project management | Rasmus
 09:00 | How to submit your work, and<br>what to submit | Torill, Peter
 derefter<br>then | Team work on the project |  | 
 11:30 | Lunch | | 
 derefter<br>then | Team work on the project | | 
-16:00 | Pizza dinner (in the canteen area) | |
+15:00 | Relocate to the round tables in the canteen area | |
+16:00<br>or so | Pizza dinner (in the canteen area) | |
 
 <br>
 
