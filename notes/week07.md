@@ -13,6 +13,20 @@ Week of August 12, in Aarhus, Denmark.
 
 There are few new topics this week, because the teams will be working on their project. 
 
+#### Useful links
+
+Repeated from last week...
+
+[The course programming project](/graded-work/moves-project-intro)
+
+[Background information](/graded-work/moves-project-background)
+
+[General specifications](/graded-work/moves-project-general-specs)
+
+Here is a [link to the groups/teams](/denmark/student-teams)
+
+Here is a [link to the schedule](/schedule-detailed)
+
 <br>
 
 ### Tuesday 13 August notes
@@ -55,7 +69,7 @@ Two brief topic presentations today:
 
 ### Friday 16 August notes
 
-Today, each group will present their work. Here is a [link to the schedule](/schedule-detailed#fredag-friday-16-august). We will begin at 08:30, so Team A should be ready to go then. Sofie will attend, and Anders (teacher of Rasmus) will too for Team E's presentation. 
+Today, each group will present their work. Here is a [link to the presentation schedule](/schedule-detailed#fredag-friday-16-august). We will begin at 08:30, so Team A should be ready to go then. Sofie will attend, and Anders (teacher of Rasmus) will attend for Team E's presentation. 
 
 Each timeslot will be about 40 minutes in length. That should allow a few minutes setup and completion time between each team's presentation. 
 
@@ -63,11 +77,11 @@ Make sure that at least two team computers have the [Airtame](https://airtame.co
 
 Also, practice your team's presentation before delivering it on Friday morning. 
 
-For each presentation, plan on the following:
+For each timeslot, plan on the following:
 * Presentation - each team member participates - total length will be about 10 minutes 
 * Don't worry about creating a lengthy slide set - the presentation is brief, and we're more interested in your thoughts and words, and in a demonstration 
-* Demonstrate the app, show some of the code
-* Be prepared to answer questions about the app, the development process, and so on 
+* Demonstrate the app, and show some of the code (reminder, white background)
+* Be prepared to answer questions about the app, the development process, the team work process, and so on 
 * As an audience member, be prepared to ask the presenting team questions 
 * Be honest, don't hide problems or difficulties
 * Talk about an example of a problem, and how it was resolved

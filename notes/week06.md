@@ -33,7 +33,7 @@ Here is a [link to the groups/teams](/denmark/student-teams)
 
 #### Schedule
 
-Here is a [link to the tentative schedule](/schedule-detailed)
+Here is a [link to the schedule](/schedule-detailed)
 
 <br>
 
