@@ -9,7 +9,7 @@ layout: default
 
 The MO:VES app is primarily for *content* delivery and presentation.
 
-However, a part of the user interface - the app "shell" and pages that require user interaction (e.g. login) will need to be localized. Use a React-friendly te
+However, a part of the user interface - the app "shell" and pages that require user interaction (e.g. login) will need to be localized. 
 
 <br>
 
