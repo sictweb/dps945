@@ -172,7 +172,7 @@ Time | Subject | Leader | Comments
 08:45 | Project management | Torill
 09:00 | How to submit your work, and<br>what to submit | Torill, Peter
 derefter<br>then | Team work on the project |  | 
-11:45 | Lunch | | 
+11:30 | Lunch | | 
 derefter<br>then | Team work on the project | | 
 16:00 | Pizza dinner (in the canteen area) | |
 
