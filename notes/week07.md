@@ -83,6 +83,9 @@ Rasmus Klatt delivered a presentation on [project management](pwa-project-manage
 
 Today, each group will present their work. Here is a [link to the presentation schedule](/schedule-detailed#fredag-friday-16-august). We will begin at 08:30, so Team A should be ready to go then. Sofie will attend, and Anders (teacher of Rasmus) will attend for Team E's presentation. 
 
+> Update - The presentations will be to Torill, Peter, and Sofie only (plus Anders for Team E). The other teams will not be in the audience. 
+> Please return at 11:45 for the wrap-up before lunch.
+
 Each timeslot will be about 40 minutes in length. That should allow a few minutes setup and completion time between each team's presentation. 
 
 Make sure that at least two team computers have the [Airtame](https://airtame.com/start) software, and that you have tested the system. 
@@ -94,7 +97,6 @@ For each timeslot, plan on the following:
 * Don't worry about creating a lengthy slide set - the presentation is brief, and we're more interested in your thoughts and words, and in a demonstration 
 * Demonstrate the app, and show some of the code (reminder, white background)
 * Be prepared to answer questions about the app, the development process, the team work process, and so on 
-* As an audience member, be prepared to ask the presenting team questions 
 * Be honest, don't hide problems or difficulties
 * Talk about an example of a problem, and how it was resolved
 
